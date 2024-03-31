@@ -13,7 +13,7 @@ function Homepage() {
    <>
 <div className='hero'>
    <div className="container text-light text-center pt-5">
-      <h1 className='pt-5' style={{margin:'40px'}}>Easy & Quick Cargo Shipping Services</h1>
+      <h1 className='pt-5' style={{margin:'20px'}}>Easy & Quick Cargo Shipping Services</h1>
      <p style={{fontSize:'24px'}}>Book low cost sea freigth shipping services.
       <br /> Get an instant quote.</p>
       <a  href="/contact" className="btn btn-danger text-light">Track Good's Here</a>
@@ -21,7 +21,7 @@ function Homepage() {
     </div>
 
     <div className="container mt-3">
-    <div className='text-center' data-aos="fade-down-right">
+    <div className='text-center' data-aos="fade-down-left">
       <h2>Welcome Crystal Shipment</h2>
       <div className="bg-red mx-auto"></div>
       <p>
@@ -30,10 +30,10 @@ function Homepage() {
     </div>
      
      <div className="row">
-      <div className="col-md-6" data-aos="fade-down-right">
+      <div className="col-md-6" data-aos="fade-down-left">
       <img src={About} className='img-fluid rounded' alt=""/>
       </div>
-      <div className="col-md-6"data-aos="fade-down-right">
+      <div className="col-md-6"data-aos="fade-down-left">
        <p className='text-danger'>TRANSPORTATION COMPANY</p>
        <h4>We Provide Full Range Logistics Solution</h4>
        <p>We strongly believe that pursuing all of these goals is in our interest and in the interest of all of our stakeholders are us customers, employees, investors and the planet as a whole. We add value to cargo people’s interaction with us, with excellent services or products. Engaging our employees and nurture investment on the stock holds market we show concern , by engaging our employees and nurture investment on the stock holds market we show concern.</p>
@@ -43,12 +43,12 @@ function Homepage() {
     </div>
   
   <div className="container pt-5">
-    <div className="text-center" data-aos="fade-down-right">
+    <div className="text-center" data-aos="fade-down-left">
     <p className='text-danger'>TYPES OF LOGISTICS</p>
     <h2>Covering All Logistics Fields</h2>
     </div>
 <Card/>
-  <div className="text-center"data-aos="fade-down-right">
+  <div className="text-center"data-aos="fade-down-left">
     <a href="" className="btn btn-danger">Load More</a>
   </div>
   </div>
@@ -99,7 +99,7 @@ function Homepage() {
       </div>
      </div>
   </div>
-  <div className="col-md-6" data-aos="fade-down-right">
+  <div className="col-md-6" data-aos="fade-down-left">
    <h2>REQUEST A QUOTE</h2>
  <Form/>
   </div>

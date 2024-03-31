@@ -6,7 +6,7 @@ function Services() {
   return (
     <>
      <div className="bg-cover" >
-      <div className="text-center text-light" data-aos="fade-up">
+      <div className="text-center text-light" data-aos="zoom-in">
         <h1 className='pt-5'>Services</h1>
         <p>Home <i className="fa fa-arrow-right ms-3 me-3"></i> Services</p>
       </div>
@@ -14,7 +14,7 @@ function Services() {
       <div className="container mt-5">
         <Card2/>
         <div className="row">
-          <div className="col-md-6" data-aos="fade-down-right">
+          <div className="col-md-6" data-aos="fade-down-left">
           <img src={Rectangle} alt="" className='img-fluid' />
           </div>
           <div className="col-md-6" data-aos="fade-down-right">

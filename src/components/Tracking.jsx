@@ -5,7 +5,7 @@ function Tracking() {
   return (
     <>
       <div className="bg-cover" >
-      <div className="text-center text-light" data-aos="fade-up">
+      <div className="text-center text-light" data-aos="zoom-in">
         <h1 className='pt-5'>Tracking</h1>
         <p>Home <i className="fa fa-arrow-right ms-3 me-3"></i> Tracking</p>
       </div>
